@@ -1,0 +1,59 @@
+.main{
+    display:grid;
+    height:100vh;
+    gap:20px;
+    grid-template-areas:
+    'img1 img2 img3 img4'
+    'img5 img2 img3  img6'
+    'img5 img7  img3  img6'
+    'img8 img7  img9  img10'
+    'img8  img11  img9  img12'
+    'img13 img11 img9 img14';
+    grid-template-rows:repeat(6,90px);
+}
+.main>img{
+    height:100%;
+    width:100%;
+}
+.img1{
+    grid-area:img1;
+}
+.img2{
+    grid-area:img2;
+}
+.img3{
+    grid-area:img3;
+}
+.img4{
+    grid-area:img4;
+}
+.img5{
+    grid-area:img5;
+}
+.img6{
+    grid-area:img6;
+}
+.img7{
+    grid-area:img7;
+}
+.img8{
+    grid-area:img8;
+}
+.img9{
+    grid-area:img9;
+}
+.img10{
+    grid-area:img10;
+}
+.img11{
+    grid-area:img11;
+}
+.img12{
+    grid-area:img12;
+}
+.img13{
+    grid-area:img13;
+}
+.img14{
+    grid-area:img14;
+}
